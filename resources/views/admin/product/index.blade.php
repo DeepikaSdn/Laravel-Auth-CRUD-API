@@ -64,7 +64,7 @@
    <td>{{ ($product->status == 1)?'Published':'Draft'}}</td>
    <td> <a class="btn btn-warning btn-icon"
     href="{{ route('admin.products.edit',$product->id) }}">
-    <i data-feather="edit"></i>
+    <i data-feather="edit"></i>Edit
 </a>
                                     
          
@@ -73,7 +73,7 @@
 {{ method_field('DELETE') }}
 {{ csrf_field() }}
 <button type="submit" class="btn btn-danger btn-icon" title="Delete User Role" onclick="return confirm('Are you sure?')"><i
-data-feather="trash"></i> </button>
+data-feather="trash"></i>Delete </button>
 </form> 
 
 </td>
